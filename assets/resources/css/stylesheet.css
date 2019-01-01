@@ -37,7 +37,7 @@ body {
 .col-2-3 {
   width: 66.66%;
 }
-.col 1-2 {
+.col-1-2 {
   width: 50%;
 }
 /*===Clearfix===*/
@@ -147,28 +147,30 @@ header {
 /*===Footer===*/
 footer.row{
   background: #000;
-  color: #fff;
+  color: #888;
   height: 100%;
   width: 100%;
+  padding-bottom: 15px;
 }
 .footer-nav {
   padding: 15px 0 0 0;
   text-align: left;
 }
 .footer-nav li {
+  font-size: .80em;
   display: inline-block;
   margin: 0 5px 15px 0;
 }
 .footer-nav a:link,
 .footer-nav a:visited {
-  color: #dedede;
+  color: #888;
   text-decoration: none;
 }
 .footer-nav a:hover,
 .footer-nav a:active {
-  color: #fff;
+  color: #dedede;
   text-decoration: none;
 }
 small {
-  font-size: .75em;
+  font-size: .65em;
 }
