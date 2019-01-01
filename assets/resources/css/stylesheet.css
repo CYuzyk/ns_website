@@ -21,7 +21,8 @@ body {
 }
 .grid,
 .col-1-3,
-.col-2-3 {
+.col-2-3,
+.col-1-2, {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -35,6 +36,9 @@ body {
 }
 .col-2-3 {
   width: 66.66%;
+}
+.col 1-2 {
+  width: 50%;
 }
 /*===Clearfix===*/
 .group:before,
@@ -139,5 +143,32 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+}
+/*===Footer===*/
+footer.row{
+  background: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.footer-nav {
+  padding: 15px 0 0 0;
+  text-align: left;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 0 5px 15px 0;
+}
+.footer-nav a:link,
+.footer-nav a:visited {
+  color: #dedede;
+  text-decoration: none;
+}
+.footer-nav a:hover,
+.footer-nav a:active {
+  color: #fff;
+  text-decoration: none;
+}
+small {
+  font-size: .75em;
 }
