@@ -173,4 +173,9 @@ footer.row{
 }
 small {
   font-size: .65em;
+  color: #888;
+}
+small a {
+  text-decoration: none;
+  color: #888;
 }
