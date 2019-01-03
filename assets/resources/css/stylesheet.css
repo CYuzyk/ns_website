@@ -2,7 +2,7 @@
 body {
   background: #fff;
   color: #404040;
-  font: 400 16px/22px "Lato", Arial, sans-serif;
+  font: 400 16px/22px "Lato", Arial, sans-serif; /*need* to adjust for mobile responsive*/px
 }
 /*====Grid===*/
 *,
@@ -32,14 +32,33 @@ body {
 }
 .col:first-child {
   margin-left: 0;
-  padding: 0 3%;}
+  padding: 0;
+}
 
 /*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
 
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66%; }
@@ -60,7 +79,7 @@ body {
   padding: 3%, 3%;
 }
 .row-alt {
-  background: #dedede;
+  background: #f2f2f2;
   padding: 3% 3%;
 }
 /*===Typography===*/
@@ -81,8 +100,8 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
-p {
-  padding: 2% 0;
+p { /* need to adjust for responsive*/
+  padding: 2% 15% ;
 }
 /*===Header===*/
 header {
@@ -178,7 +197,7 @@ header {
   padding: 10px auto;
 }
 .section-first img {
-  width: 100%;
+  width: 75%;
 }
 .section-first h2 {
   text-shadow: 1px 1px #fff;
@@ -186,7 +205,7 @@ header {
 .main-splash {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
 }
 /*===Event Description===*/
@@ -196,7 +215,7 @@ header {
   background-color: blue;
   content: " ";
   width: 3em;
-  margin: 3px auto 15px auto;
+  margin: 3px auto 5% auto;
   transform: skew(-55deg);
 }
 .event-container {
@@ -206,7 +225,7 @@ justify-content: center;
 margin: 1% 0 3% 0%;
 }
 .event-container img {
-  width: 300px;
+  width: 250px; /*will need to scale down for mobile*/
   object-fit: scale-down;
   margin: auto;
   border: 2px solid #1a1a1a;
