@@ -81,6 +81,9 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+p {
+  padding: 2% 0;
+}
 /*===Header===*/
 header {
   height: 100%;
@@ -174,6 +177,9 @@ header {
   margin: 30px auto;
   padding: 10px auto;
 }
+.section-first img {
+  width: 100%;
+}
 .section-first h2 {
   text-shadow: 1px 1px #fff;
 }
@@ -182,6 +188,29 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/*===Event Description===*/
+.events h3::after {
+  display: block;
+  height: 2px;
+  background-color: blue;
+  content: " ";
+  width: 3em;
+  margin: 3px auto 15px auto;
+  transform: skew(-55deg);
+}
+.event-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1% 0 3% 0%;
+}
+.event-container img {
+  width: 300px;
+  object-fit: scale-down;
+  margin: auto;
+  border: 2px solid #1a1a1a;
+  border-radius: 15%;
 }
 /*===Footer===*/
 footer.row{
