@@ -193,7 +193,7 @@ header {
 .section-first {
   position: relative;
   text-align: center;
-  margin: 30px auto;
+  margin: 0 auto 20px auto;
   padding: 10px auto;
 }
 .section-first img {
