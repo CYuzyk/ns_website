@@ -215,67 +215,49 @@ margin: 1% 0 3% 0%;
   border-radius: 15%;
 }
 /*===Random Color===*/
-.blue span{
-    color: blue;
-}
-.blue .random h1::after {
-    background-color: blue;
-}
+.blue span { color: blue;}
+
+.blue .random h1::after { background-color: blue;}
+
 .blue .random  h1::after,
-.blue .random h3::after {
-    background-color: blue;
-}
+.blue .random h3::after { background-color: blue;}
+
 .blue .random a:hover,
-.blue .random a:active {
-  border-bottom: 1px solid blue;
-}
-.red span {
-    color: red;
-}
-.red .random  h1::after {
-    background-color: red;
-}
+.blue .random a:active { border-bottom: 1px solid blue;}
+
+.red span {color: red;}
+
+.red .random  h1::after { background-color: red;}
+
 .red .random  h1::after,
-.red .random h3::after {
-    background-color: red;
-}
+.red .random h3::after { background-color: red;}
+
 .red .random a:hover,
-.red .random a:active {
-  border-bottom: 1px solid red;
-}
-.green span{
-    color: green;
-}
+.red .random a:active { border-bottom: 1px solid red;}
+
+.green span{ color: green; }
+
 .green .random  h1::after,
-.green .random h3::after {
-    background-color: green;
-}
+.green .random h3::after { background-color: green;}
+
 .green .random a:hover,
-.green .random a:active {
-  border-bottom: 1px solid green;
-}
-.yellow span{
-    color: yellow;
-}
+.green .random a:active { border-bottom: 1px solid green;}
+
+.yellow span{ color: yellow; }
 .yellow .random  h1::after,
-.yellow .random h3::after {
-    background-color: yellow;
-}
+.yellow .random h3::after { background-color: yellow;}
+
 .yellow .random a:hover,
-.yellow .random a:active {
-  border-bottom: 1px solid yellow;
-}
-.orange span{
-    color: orange;
-}
+.yellow .random a:active { border-bottom: 1px solid yellow;}
+
+.orange span{ color: orange;}
+
 .orange .random  h1::after,
-.orange .random h3::after {
-    background-color: orange;
-}
+.orange .random h3::after { background-color: orange;}
+
 .orange .random a:hover,
-.orange .random a:active {
-  border-bottom: 1px solid orange;
-}
+.orange .random a:active { border-bottom: 1px solid orange;}
+
 /*===Footer===*/
 footer.row{
   background: #000;
