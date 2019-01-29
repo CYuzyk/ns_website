@@ -231,8 +231,22 @@ margin: 1% 0 3% 0%;
 }
 .reserve a:hover,
 .reserve a:active {
- background-color: #fff; 
-
+ background-color: #fff;
+}
+.normal-link {
+  padding: 5%;
+  position: relative;
+  text-align: right;
+}
+.normal-link a:link,
+.normal-link a:visited {
+  color: #404040;
+  border-bottom: 1px solid transparent;
+}
+.normal-link a:hover,
+.normal-link a:active {
+  color: #262626;
+  border-bottom: 1px solid #262626;
 }
 /*===Random Color===*/
 .blue span { color: blue;}
