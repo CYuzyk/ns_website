@@ -173,8 +173,9 @@ header {
   display: inline-block;
   position: absolute;
 }
-  font-size: 85%;
-
+/*.nav li:hover ul a{
+  font-size: 90%;
+}*/
 /*===Main===*/
 .section-first {
   position: relative;
