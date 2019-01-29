@@ -86,6 +86,9 @@ h3 {
 p { /* need to adjust for responsive*/
   padding: 2% 15% ;
 }
+a {
+  text-decoration: none;
+}
 /*===Header===*/
 header {
   height: 100%;
@@ -123,7 +126,6 @@ header {
 .main-nav a:link,
 .main-nav a:visited {
   color: #fff;
-  text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
   border-bottom: 1px solid transparent;
@@ -132,7 +134,6 @@ header {
 }
 .main-nav a:hover,
 .main-nav a:active {
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 115%;
   font-weight: 400;
@@ -191,7 +192,7 @@ header {
   left: 40%;
   transform: translate(-50%, -50%);
 }
-/*===Event Description===*/
+/*===Show/Event Description===*/
 .events h3::after {
   display: block;
   height: 2px;
@@ -214,6 +215,25 @@ margin: 1% 0 3% 0%;
   border: 2px solid #1a1a1a;
   border-radius: 15%;
 }
+.reserve {
+  padding: 5%;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.reserve a:link,
+.reserve a:visited {
+  background-color: rgba(255,0,0,0.0);
+  color: #404040;
+  padding: 3%;
+  box-shadow: 2px 2px 1px 3px transparent;
+}
+.reserve a:hover,
+.reserve a:active {
+ background-color: #fff; 
+
+}
 /*===Random Color===*/
 .blue span { color: blue;}
 
@@ -225,6 +245,16 @@ margin: 1% 0 3% 0%;
 .blue .random a:hover,
 .blue .random a:active { border-bottom: 1px solid blue;}
 
+.blue .reserve a:link,
+.blue .reserve a:visited {
+  background-color: rgba(0, 0, 255, 0.2);
+  box-shadow: 2px 2px 1px 3px blue;
+}
+.blue .reserve a:hover,
+.blue .reserve a:active {
+  background-color: #fff;
+}
+
 .red span {color: red;}
 
 .red .random  h1::after { background-color: red;}
@@ -235,6 +265,15 @@ margin: 1% 0 3% 0%;
 .red .random a:hover,
 .red .random a:active { border-bottom: 1px solid red;}
 
+.red .reserve a:link,
+.red .reserve a:visited {
+  background-color: rgba(255, 0, 0, 0.2);
+  box-shadow: 2px 2px 1px 3px red;
+}
+.red .reserve a:hover,
+.red .reserve a:active {
+  background-color: #fff;
+}
 .green span{ color: green; }
 
 .green .random  h1::after,
@@ -243,13 +282,32 @@ margin: 1% 0 3% 0%;
 .green .random a:hover,
 .green .random a:active { border-bottom: 1px solid green;}
 
+.green .reserve a:link,
+.green .reserve a:visited {
+  background-color: rgba(0, 255, 0, 0.2);
+  box-shadow: 2px 2px 1px 3px green;
+}
+.green .reserve a:hover,
+.green .reserve a:active {
+  background-color: #fff;
+}
 .yellow span{ color: yellow; }
+
 .yellow .random  h1::after,
 .yellow .random h3::after { background-color: yellow;}
 
 .yellow .random a:hover,
 .yellow .random a:active { border-bottom: 1px solid yellow;}
 
+.yellow .reserve a:link,
+.yellow .reserve a:visited {
+  background-color: rgba(255, 255, 0, 0.2);
+  box-shadow: 2px 2px 1px 3px yellow;
+}
+.yellow .reserve a:hover,
+.yellow .reserve a:active {
+  background-color: #fff;
+}
 .orange span{ color: orange;}
 
 .orange .random  h1::after,
@@ -258,6 +316,15 @@ margin: 1% 0 3% 0%;
 .orange .random a:hover,
 .orange .random a:active { border-bottom: 1px solid orange;}
 
+.orange .reserve a:link,
+.orange .reserve a:visited {
+  background-color: rgba(255,165,0, 0.2);
+  box-shadow: 2px 2px 1px 3px orange;
+}
+.orange .reserve a:hover,
+.orange.reserve a:active {
+  background-color: #fff;
+}
 /*===Footer===*/
 footer.row{
   background: #000;
@@ -278,12 +345,10 @@ footer.row{
 .footer-nav a:link,
 .footer-nav a:visited {
   color: #888;
-  text-decoration: none;
 }
 .footer-nav a:hover,
 .footer-nav a:active {
   color: #dedede;
-  text-decoration: none;
 }
 small {
   font-size: .5em;
@@ -291,6 +356,5 @@ small {
   padding-bottom: 0;
 }
 small a {
-  text-decoration: none;
   color: #888;
 }
