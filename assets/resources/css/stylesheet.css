@@ -131,7 +131,6 @@ header {
   border-bottom: 0.1em solid transparent;
   -webkit-transition: font-weight .25s, border-bottom .5s, font-size .5s;
   transition: font-weight .25s, border-bottom .5s, font-size .5s;
-
 }
 .main-nav a:hover,
 .main-nav a:active {
@@ -174,9 +173,8 @@ header {
   display: inline-block;
   position: absolute;
 }
-.nav li:hover ul a {
   font-size: 85%;
-}
+
 /*===Main===*/
 .section-first {
   position: relative;
