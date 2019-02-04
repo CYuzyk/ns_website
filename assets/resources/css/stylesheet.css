@@ -83,6 +83,11 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+h4 {
+  font-size: 1.25em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
 p { /* need to adjust for responsive*/
   padding: 2% 15% ;
 }
@@ -185,6 +190,7 @@ header {
 }
 .section-first img {
   width: 50%;
+  /*border-radius: 20%;*/
 }
 .section-first h2 {
   text-shadow: 1px 1px #fff;

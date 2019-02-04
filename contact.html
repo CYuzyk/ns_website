@@ -30,9 +30,23 @@
             </header>
 <!-- Contact form -->
       <main>
-        <div class="row">
+        <div class="row contact">
+          <h3>Contact Me</h3>
+          <form>
+             <p> Name: <input type="text" name="name"> </p>
+             <p> Email: <input type="email" name="email"> </p>
+             <p> Reason: <br>
+               <input type="radio" name="reason" value="book" checked>  Booking <br>
+               <input type="radio" name="reason" value="information"> More Information <br>
+               <input type="radio" name="reason" value="pricing"> Pricing <br>
+               <input type="radio" name="reason" value="other"> Other </p>
+            <p> Comments: <br>
+              <textarea name="comments" rows="10" cols="50"></textarea></p>
+              <input type="submit" name="submit" value="SUBMIT">
+          </form>
         </div>
       </main>
+<!-- Footer -->
       <footer class="container row primary-footer">
         <div>
           <ul class="footer-nav">
