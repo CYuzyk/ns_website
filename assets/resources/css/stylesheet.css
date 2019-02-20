@@ -348,6 +348,36 @@ margin: 1% 0 3% 0%;
 .orange.reserve a:active {
   background-color: #fff;
 }
+/*===Contact Page===*/
+.contact_form p{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1% 15%;
+}
+input {
+  box-sizing: border-box;
+  width: 80%;
+  height: 2em;
+
+}
+select {
+  text-transform: uppercase;
+  font-size: 105%;
+  color: #404040;
+}
+#submit {
+  border-radius: 50%;
+  margin: 1% 0 0 15%;
+  padding: 0 auto;
+  height: 2em;
+  width: 25%;
+
+}
+#submit span {
+  color: #404040;
+  font-size: 120%;
+  text-transform: uppercase;
+}
 /*===Footer===*/
 footer.row{
   background: #000;

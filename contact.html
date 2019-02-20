@@ -30,20 +30,30 @@
             </header>
 <!-- Contact form -->
       <main>
-        <div class="row contact">
-          <h3>Contact Me</h3>
-          <form>
-             <p> Name: <input type="text" name="name" required> </p>
-             <p> Email: <input type="email" name="email" required> </p>
-             <p> Reason: <br>
-               <input type="radio" name="reason" id="book" value="book" checked> <label for="book"> Booking </label><br>
-               <input type="radio" name="reason" id="info" value="information"><label for="info"> More Information </label><br>
-               <input type="radio" name="reason" id="price" value="pricing"><label for="price">Pricing </label> <br>
-               <input type="radio" name="reason" id= "other" value="other"><label for="other">Other </label></p>
-            <p> Comments: <br>
-              <textarea name="comments" rows="10" cols="50" required></textarea></p>
-              <input type="submit" name="submit" value="SUBMIT">
-          </form>
+        <div class="container row section group">
+          <div class= "col span_1_of_2 contact_form">
+            <h3>Contact Me</h3>
+            <form>
+               <p> Name:<br> <input type="text" name="name"> </p>
+               <p> Phone:<br> <input type="text" name="phone" </p>
+               <p> Email:<br> <input type="email" name="email"> </p>
+               <p> Reason:<br><select name ="reason">
+                   <option value="Book Nikolai for an event">Book Nikolai for an event </option>
+                   <option value="More information">More Information</option>
+                   <option value="Pricing">Request Pricing</option>
+                   <option value="Other">Something Else</option>
+                 </select>
+      <!--           <input type="radio" name="reason" id="book" value="book" checked> <label for="book"> Booking </label><br>
+                 <input type="radio" name="reason" id="info" value="information"><label for="info"> More Information </label><br>
+                 <input type="radio" name="reason" id="price" value="pricing"><label for="price">Pricing </label> <br>
+                 <input type="radio" name="reason" id= "other" value="other"><label for="other">Other </label></p> -->
+              <p> Comments:<br> <textarea name="comments" rows="10" cols="55"></textarea></p>
+                <button type="submit" id="submit"><span>Submit</span></button>
+            </form>
+          </div>
+          <div class="col span_1_of_2">
+            <img src="assets/images/barkertall.jpg" alt="Nikolai in a traditional barker outfit">
+          </div>
         </div>
       </main>
 <!-- Footer -->
